@@ -35,4 +35,4 @@ detection:
 falsepositives:
     - Legitimate use of 7z with a command line in which ".dmp" or ".dump" appears accidentally
     - Legitimate use of 7z to compress WER ".dmp" files for troubleshooting
-level: mediumsigma convert -t splunk -p splunk_windows
+level: medium
